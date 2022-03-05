@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Raleway:wght@500;600;700;800;900&display=swap');
+
+h1{
+    font-family: 'Lobster';
+    font-weight: bold;
+    margin-left: 20px;
+}
+#highlight{
+    color:#ff4f53ff
+}
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border: 3px solid #ff4f53ff
+}
+@keyframes example{
+    from{
+        border-color: #ff4f53ff
+    }
+    to{
+        border-color: rgb(255, 157, 0);
+    }
+}
+button{
+    margin-top: 500px;
+    color:white;
+    background-color: #ff4f53ff;
+    border: 2px solid #ff4f53ff;
+    transition: 0.3s ease;
+    height: 50px;
+    font-weight:bold;
+    width: 200px;
+}
+button:hover{
+    color:#ff4f53ff;
+    background-color: transparent;
+    width: 230px;
+}
